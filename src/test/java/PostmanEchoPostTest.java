@@ -28,6 +28,6 @@ public class PostmanEchoPostTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo(payload));
+                .body("data", equalTo("не тот текст"));
     }
 }
